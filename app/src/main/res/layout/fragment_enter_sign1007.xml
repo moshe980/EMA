@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fregments.EnterSign1007">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/upload1007Signed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="הכנס טופס 1007 חתום מהספק"
+            ></Button>
+
+        <ProgressBar
+            android:id="@+id/bar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/upload1007Signed"
+            android:visibility="gone" ></ProgressBar>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewSign1007"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"/>
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>
